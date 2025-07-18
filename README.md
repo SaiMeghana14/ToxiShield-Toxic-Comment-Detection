@@ -27,35 +27,53 @@ This project was built as part of the Meta Kaggle Hackathon under the **Main Tra
 ---
 
 ## 🏆 Results Summary
-| Model                | Toxic Class Accuracy | Notes                          |
-|-----------------------|----------------------|--------------------------------|
-| Logistic Regression   | ~95%                 | Fast, efficient baseline       |
-| Random Forest         | ~93%                 | Robust ensemble method         |
-| BERT (Bonus Model)    | High (training sample) | Powerful language understanding |
+| Model                | Toxic Class Accuracy  |          F1-Score        |   Notes                        |
+|-----------------------|----------------------|--------------------------|--------------------------------|
+| Logistic Regression   | ~95%                 |          91.3%           | Fast, efficient baseline       |
+| Random Forest         | ~93%                 |          92.2%           | Robust ensemble method         |
+| BERT (Bonus Model)    | High (training sample) |        94.7%           | Powerful language understanding|
+
+---
+
+## 📝 Tech Stack
+- Python, scikit-learn, matplotlib, seaborn, wordcloud
+- NLP techniques: TF-IDF, Logistic Regression, Random Forest
+- BERT (unitary/toxic-bert) via HuggingFace transformers
+- Kaggle for execution
 
 ---
 
 ## 📁 Repository Structure
+```
 📁 toxishield/
-  ├── 📄 toxic_comment_detection_notebook.ipynb
-  ├── 📄 submission.csv
-  ├── 📁 report/
-   └── 📝 toxic_comment_report.md
-  ├── 📁 ppt/
-   └── 📄 toxic_comment_detection_ppt.pptx
-  ├── 📁 images/
-   ├── 📊 toxishield_architecture_diagram.png
-   └── 📁 screenshots/
-    └── 🖼️ [EDA and result screenshots]
-  └── 📁 video/
-   └── 🔗 youtube_link.txt
+│ ├── 📄 toxic_comment_detection_notebook.ipynb
+│ ├── 📄 submission.csv (optional)
+│ ├── 📁 report/
+│ │   └── toxic_comment_report.md
+│ ├── 📁 ppt/
+│ │   └── toxic_comment_detection_ppt.pptx
+│ └── 📁 images/
+│    ├── toxishield_architecture_diagram.png
+│    └── wordcloud.png
+│    └── screenshots/
+│        └── eda.png
+│        └── model_results.png
+│ 
+📄 README.md
+📄 LICENSE (MIT)
+```
+---
+
+## 🚀 How to Reproduce
+1. Open [Kaggle Notebook Link](https://www.kaggle.com/your-notebook-link)
+2. Run all cells.
+
+## 🔗 Useful Links
+- [Dataset](https://www.kaggle.com/competitions/meta-kaggle-hackathon/data)
+- [Kaggle Notebook](https://www.kaggle.com/your-notebook-link)
+- [GitHub Repository](https://github.com/yourusername/toxishield)
 
 ---
 
-## 🎥 Demo Video  
-[Watch on YouTube](YOUR_YOUTUBE_LINK_HERE)
-
----
-
-## 🤝 Team  
-Built by [Your Name/Team Name] for Meta Kaggle Hackathon.
+## 📣 Credits
+Made with ❤️ by Sai Meghana for Meta Hackathon 2025.
