@@ -67,8 +67,8 @@ st.image("images/wordcloud.png", caption="Word Cloud", use_column_width=True)
 # EDA and Model Metrics Section
 st.markdown("---")
 st.subheader("📊 Sample EDA Visualizations")
-st.image("images/eda.png", caption="EDA Label Distribution", use_column_width=True)
-st.image("images/model_results.png", caption="Model Performance Comparison", use_column_width=True)
+st.image("images/screenshots/eda.png", caption="EDA Label Distribution", use_column_width=True)
+st.image("images/screenshots/model_results.png", caption="Model Performance Comparison", use_column_width=True)
 
 st.markdown("---")
 st.success("✅ Project ToxiShield Completed 🎉")
