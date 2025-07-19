@@ -9,7 +9,7 @@ import random
 st.set_page_config(page_title="ToxiShield: Toxic Comment Detector", page_icon="🛡️", layout="centered")
 
 # Banner
-st.image("images/banner.png", use_column_width=True)
+st.image("images/banner.png", use_container_width=True)
 
 # Title and Introduction
 st.title("🛡️ ToxiShield: Toxic Comment Detector")
