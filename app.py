@@ -35,7 +35,7 @@ st.sidebar.markdown("""
 - ✅ Built with Streamlit
 - ✅ Trained on Jigsaw Dataset
 - ✅ Fast inference with Logistic Regression
-- 🖥️ GitHub: [View Code](https://github.com/ToxiShield-Toxic-Comment-Detection)
+- 🖥️ GitHub: [View Code](https://github.com/SaiMeghana14/ToxiShield-Toxic-Comment-Detection)
 """)
 
 model_choice = st.sidebar.radio("Choose Model", ["Logistic Regression"], index=0)
@@ -72,8 +72,8 @@ st.image("images/wordcloud.png", caption="Word Cloud", use_container_width=True)
 # EDA and Model Metrics Section
 st.markdown("---")
 st.subheader("📊 Sample EDA Visualizations")
-st.image("images/eda.png", caption="EDA Label Distribution", use_container_width=True)
-st.image("images/model_results.png", caption="Model Performance Comparison", use_container_width=True)
+st.image("images/screenshots/eda.png", caption="EDA Label Distribution", use_container_width=True)
+st.image("images/screenshots/model_results.png", caption="Model Performance Comparison", use_container_width=True)
 
 # Extra Chart for Label Distribution (Static Example)
 st.subheader("📈 Toxic Label Distribution (Example)")
